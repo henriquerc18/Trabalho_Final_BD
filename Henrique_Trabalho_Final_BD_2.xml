@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <MER>
 	<Informacoes>
-		<Posicao Left="0" Top="85"/>
-		<TotalItens Valor="108"/>
+		<Posicao Left="0" Top="49"/>
+		<TotalItens Valor="124"/>
 		<Tipo Valor="CONCEITUAL"/>
 		<Versao Valor="2.0.0"/>
 		<Autor Valor=""/>
@@ -222,15 +222,15 @@
       <Especializacoes ehEsp="0"/>
     </Entidade>
     <Entidade nome="Produtos" id="42">
-      <Left Valor="153"/>
-      <Top Valor="259"/>
+      <Left Valor="155"/>
+      <Top Valor="256"/>
       <Width Valor="102"/>
       <Height Valor="66"/>
       <Fonte default="-1"/>
       <Atributos>
         <Atributo nome="Código" id="46">
-          <Left Valor="290"/>
-          <Top Valor="299"/>
+          <Left Valor="292"/>
+          <Top Valor="287"/>
           <Width Valor="65"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
@@ -260,41 +260,9 @@
             </Ligacao>
           </Ligacoes>
         </Atributo>
-        <Atributo nome="Preço" id="49">
-          <Left Valor="203"/>
-          <Top Valor="367"/>
-          <Width Valor="59"/>
-          <Height Valor="16"/>
-          <Fonte default="-1"/>
-          <Atributos/>
-          <AtributosOcultos/>
-          <Dicionario></Dicionario>
-          <Nula Valor="0"/>
-          <Observacao></Observacao>
-          <Futuro></Futuro>
-          <Anexos/>
-          <MaxCard Valor="1"/>
-          <MinCard Valor="1"/>
-          <Composto Valor="0"/>
-          <Identificador Valor="0"/>
-          <Tipo Valor="Texto(1)"/>
-          <Multivalorado Valor="0"/>
-          <Orientacao Valor="3"/>
-          <TamAuto Valor="-1"/>
-          <Desvio Valor="10"/>
-          <BarraID Valor="45"/>
-          <Ligacoes>
-            <Ligacao Destino_ID="42">
-              <MostraCardinalidade Valor="0" Card_id="51"/>
-              <Cardinalidades Cardinalidade="4"/>
-              <Orientacao Valor="0"/>
-              <Fraca Valor="0"/>
-            </Ligacao>
-          </Ligacoes>
-        </Atributo>
         <Atributo nome="Descrição" id="52">
-          <Left Valor="228"/>
-          <Top Valor="351"/>
+          <Left Valor="292"/>
+          <Top Valor="300"/>
           <Width Valor="82"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
@@ -325,8 +293,8 @@
           </Ligacoes>
         </Atributo>
         <Atributo nome="Página" id="115">
-          <Left Valor="290"/>
-          <Top Valor="283"/>
+          <Left Valor="292"/>
+          <Top Valor="274"/>
           <Width Valor="65"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
@@ -350,6 +318,102 @@
           <Ligacoes>
             <Ligacao Destino_ID="42">
               <MostraCardinalidade Valor="0" Card_id="117"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Preço" id="179">
+          <Left Valor="235"/>
+          <Top Valor="348"/>
+          <Width Valor="59"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="180"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="42">
+              <MostraCardinalidade Valor="0" Card_id="181"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Desconto" id="185">
+          <Left Valor="215"/>
+          <Top Valor="364"/>
+          <Width Valor="80"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="186"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="42">
+              <MostraCardinalidade Valor="0" Card_id="187"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Preço c/ Desconto" id="188">
+          <Left Valor="195"/>
+          <Top Valor="380"/>
+          <Width Valor="130"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="189"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="42">
+              <MostraCardinalidade Valor="0" Card_id="190"/>
               <Cardinalidades Cardinalidade="4"/>
               <Orientacao Valor="0"/>
               <Fraca Valor="0"/>
@@ -495,6 +559,70 @@
           <Ligacoes>
             <Ligacao Destino_ID="58">
               <MostraCardinalidade Valor="0" Card_id="111"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Desconto" id="194">
+          <Left Valor="416"/>
+          <Top Valor="517"/>
+          <Width Valor="80"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="195"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="58">
+              <MostraCardinalidade Valor="0" Card_id="196"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Preço c/ Desconto" id="200">
+          <Left Valor="391"/>
+          <Top Valor="533"/>
+          <Width Valor="130"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="0"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="201"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="58">
+              <MostraCardinalidade Valor="0" Card_id="202"/>
               <Cardinalidades Cardinalidade="4"/>
               <Orientacao Valor="0"/>
               <Fraca Valor="0"/>
@@ -657,7 +785,7 @@
       <Especializacoes ehEsp="0"/>
     </Entidade>
     <Entidade nome="Consultora" id="118">
-      <Left Valor="127"/>
+      <Left Valor="124"/>
       <Top Valor="575"/>
       <Width Valor="102"/>
       <Height Valor="66"/>
@@ -831,8 +959,8 @@
           <MostraCardinalidade Valor="-1" Card_id="56"/>
           <Cardinalidades Cardinalidade="3">
             <Cardinalidade nome="" id="56">
-              <Left Valor="255"/>
-              <Top Valor="260"/>
+              <Left Valor="257"/>
+              <Top Valor="254"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -887,7 +1015,7 @@
     </Relacao>
     <Relacao nome="Vendidos" id="60">
       <Left Valor="576"/>
-      <Top Valor="519"/>
+      <Top Valor="581"/>
       <Width Valor="102"/>
       <Height Valor="51"/>
       <Fonte default="-1"/>
@@ -902,9 +1030,9 @@
       <Ligacoes>
         <Ligacao Destino_ID="58">
           <MostraCardinalidade Valor="-1" Card_id="61"/>
-          <Cardinalidades Cardinalidade="4">
+          <Cardinalidades Cardinalidade="3">
             <Cardinalidade nome="" id="61">
-              <Left Valor="417"/>
+              <Left Valor="441"/>
               <Top Valor="492"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
@@ -920,7 +1048,7 @@
               <TamAuto Valor="-1"/>
               <Tipo Valor="0"/>
               <TextAlin Valor="0"/>
-              <Card Valor="4"/>
+              <Card Valor="3"/>
               <Fixa Valor="0"/>
               <Ligacoes/>
             </Cardinalidade>
@@ -1032,7 +1160,7 @@
       </Ligacoes>
     </Relacao>
     <Relacao nome="Comprados" id="94">
-      <Left Valor="127"/>
+      <Left Valor="124"/>
       <Top Valor="444"/>
       <Width Valor="102"/>
       <Height Valor="51"/>
@@ -1078,8 +1206,8 @@
           <MostraCardinalidade Valor="-1" Card_id="96"/>
           <Cardinalidades Cardinalidade="3">
             <Cardinalidade nome="" id="96">
-              <Left Valor="178"/>
-              <Top Valor="326"/>
+              <Left Valor="135"/>
+              <Top Valor="325"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -1106,7 +1234,7 @@
           <MostraCardinalidade Valor="-1" Card_id="119"/>
           <Cardinalidades Cardinalidade="3">
             <Cardinalidade nome="" id="119">
-              <Left Valor="178"/>
+              <Left Valor="175"/>
               <Top Valor="560"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
