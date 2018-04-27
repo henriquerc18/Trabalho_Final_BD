@@ -2,7 +2,7 @@
 <MER>
 	<Informacoes>
 		<Posicao Left="0" Top="74"/>
-		<TotalItens Valor="101"/>
+		<TotalItens Valor="105"/>
 		<Tipo Valor="CONCEITUAL"/>
 		<Versao Valor="2.0.0"/>
 		<Autor Valor=""/>
@@ -173,15 +173,15 @@
       <Especializacoes ehEsp="0"/>
     </Entidade>
     <Entidade nome="Pedidos" id="30">
-      <Left Valor="787"/>
+      <Left Valor="786"/>
       <Top Valor="79"/>
       <Width Valor="102"/>
       <Height Valor="66"/>
       <Fonte default="-1"/>
       <Atributos>
         <Atributo nome="Data" id="31">
-          <Left Valor="924"/>
-          <Top Valor="115"/>
+          <Left Valor="923"/>
+          <Top Valor="119"/>
           <Width Valor="54"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
@@ -195,7 +195,7 @@
           <MaxCard Valor="1"/>
           <MinCard Valor="1"/>
           <Composto Valor="0"/>
-          <Identificador Valor="-1"/>
+          <Identificador Valor="0"/>
           <Tipo Valor="Texto(1)"/>
           <Multivalorado Valor="0"/>
           <Orientacao Valor="3"/>
@@ -212,9 +212,41 @@
           </Ligacoes>
         </Atributo>
         <Atributo nome="Preço Total" id="37">
-          <Left Valor="924"/>
-          <Top Valor="93"/>
+          <Left Valor="923"/>
+          <Top Valor="103"/>
           <Width Valor="91"/>
+          <Height Valor="16"/>
+          <Fonte default="-1"/>
+          <Atributos/>
+          <AtributosOcultos/>
+          <Dicionario></Dicionario>
+          <Nula Valor="0"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <MaxCard Valor="1"/>
+          <MinCard Valor="1"/>
+          <Composto Valor="0"/>
+          <Identificador Valor="0"/>
+          <Tipo Valor="Texto(1)"/>
+          <Multivalorado Valor="0"/>
+          <Orientacao Valor="3"/>
+          <TamAuto Valor="-1"/>
+          <Desvio Valor="10"/>
+          <BarraID Valor="36"/>
+          <Ligacoes>
+            <Ligacao Destino_ID="30">
+              <MostraCardinalidade Valor="0" Card_id="39"/>
+              <Cardinalidades Cardinalidade="4"/>
+              <Orientacao Valor="0"/>
+              <Fraca Valor="0"/>
+            </Ligacao>
+          </Ligacoes>
+        </Atributo>
+        <Atributo nome="Código" id="310">
+          <Left Valor="923"/>
+          <Top Valor="87"/>
+          <Width Valor="65"/>
           <Height Valor="16"/>
           <Fonte default="-1"/>
           <Atributos/>
@@ -233,10 +265,10 @@
           <Orientacao Valor="3"/>
           <TamAuto Valor="-1"/>
           <Desvio Valor="10"/>
-          <BarraID Valor="36"/>
+          <BarraID Valor="311"/>
           <Ligacoes>
             <Ligacao Destino_ID="30">
-              <MostraCardinalidade Valor="0" Card_id="39"/>
+              <MostraCardinalidade Valor="0" Card_id="312"/>
               <Cardinalidades Cardinalidade="4"/>
               <Orientacao Valor="0"/>
               <Fraca Valor="0"/>
@@ -735,9 +767,9 @@
         </Ligacao>
         <Ligacao Destino_ID="30">
           <MostraCardinalidade Valor="-1" Card_id="41"/>
-          <Cardinalidades Cardinalidade="3">
+          <Cardinalidades Cardinalidade="4">
             <Cardinalidade nome="" id="41">
-              <Left Valor="749"/>
+              <Left Valor="748"/>
               <Top Valor="97"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
@@ -753,7 +785,7 @@
               <TamAuto Valor="-1"/>
               <Tipo Valor="0"/>
               <TextAlin Valor="0"/>
-              <Card Valor="3"/>
+              <Card Valor="4"/>
               <Fixa Valor="0"/>
               <Ligacoes/>
             </Cardinalidade>
@@ -810,7 +842,7 @@
           <MostraCardinalidade Valor="-1" Card_id="57"/>
           <Cardinalidades Cardinalidade="3">
             <Cardinalidade nome="" id="57">
-              <Left Valor="821"/>
+              <Left Valor="820"/>
               <Top Valor="146"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
@@ -956,7 +988,7 @@
           <MostraCardinalidade Valor="-1" Card_id="74"/>
           <Cardinalidades Cardinalidade="4">
             <Cardinalidade nome="" id="74">
-              <Left Valor="855"/>
+              <Left Valor="854"/>
               <Top Valor="146"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
