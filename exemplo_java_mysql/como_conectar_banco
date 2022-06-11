@@ -1,0 +1,15 @@
+Banco de Dados I
+Prof. Daniel Muller
+
+Passos rápidos para criar uma conexão java para o mysql
+
+1 - criar o banco (com phpmyadmin, workbench, etc.)
+2 - criar um projeto java com códigos para conexão
+3 - baixar o conector java-mysql de http://dev.mysql.com/downloads/connector/j/
+4 - colocar o .jar do pacote do conector como biblioteca do projeto java
+    (é nas propriedades do projeto java que vai se encontrar o local
+     de colocação da biblioteca do conector mysql)
+5 - configurar os parâmetros de conexão (servidor, usuário, senha,
+    banco, etc.)
+6 - verificar as cláusulas SQL (insert, select, ...)
+7 - executar, corrigir erros, etc.
